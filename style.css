@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --lightblue: rgb(92, 163, 255);
+  --blue: rgb(74, 132, 207);
+  --gray: rgb(204, 204, 204);
+}
+
