@@ -6,8 +6,45 @@ body {
 }
 
 :root {
-  --lightblue: rgb(92, 163, 255);
-  --blue: rgb(74, 132, 207);
+  --lightblue: rgb(92, 217, 255);
+  --blue: rgb(74, 169, 207);
   --gray: rgb(204, 204, 204);
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+header span {
+  color: rgb(233, 233, 233);
+  font-size: 1.9rem;
+  padding: 0px 10px 0px 10px;
+}
+
+.chosen-link {
+  color: var(--blue);
+}
+
+header button {
+  border: 1.5px solid var(--lightblue);
+  min-width: 5rem;
+  min-height: 3rem;
+
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: var(--lightblue);
+}
+
+img {
+  max-width: 200px;
+}
+
 
